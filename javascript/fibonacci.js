@@ -3,7 +3,7 @@
 
 var fibGenerator = function* () {
   let x = 0;
-  yield x;
+  yield x; // it stops executing for the first time this function is called. 
   x = 1;
   y = 1;
   yield x;
